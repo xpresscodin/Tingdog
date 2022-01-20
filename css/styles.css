@@ -1,0 +1,187 @@
+
+/*Styling*/
+body{
+  font-family: "Montserrat";
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 3rem;
+
+}
+
+/*Class stylings*/
+
+.download-button{
+margin: 5% 3% 5% 0;
+}
+
+.img-phone{
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.title-heading{
+  color:#ffffff;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+.features-h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.feature-col{
+text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+color:#ff4c68;
+}
+.features-p{
+  color: #8f8f8f;
+}
+
+
+/*Id stylings*/
+
+#title{
+  background-color:#ff4c68;
+  color: #fff;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+
+/* navigation bar */
+
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+/* Testimonials section */
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color:#fff;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-imge{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+}
+.price-h2{
+  font-family: "Montserrat";
+}
+.price-header{
+  text-align: center;
+}
+.p-header{
+  color: #8f8f8f;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* cta section */
+#cta{
+  background-color:#ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-h3{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icon{
+  padding: 10px 10px;
+}
+
+
+/* @media query  */
+
+@media (min-width:0) and (max-width:1050px) {
+#title{
+  text-align: center;
+}
+
+  .img-phone{
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+
+  }
+}
